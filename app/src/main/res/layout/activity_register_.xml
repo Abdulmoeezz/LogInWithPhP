@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_2"
+    tools:context="com.example.abmoi.loginwithphp.Register_Activity">
+
+
+    <EditText
+        android:id="@+id/editTextREg_1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/rounded_border_edittext">
+
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/editTextREg_2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="26dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rounded_border_edittext"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editTextREg_1">
+    </EditText>
+
+
+
+
+
+    <EditText
+        android:id="@+id/editTextREg_3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="26dp"
+        android:hint="Password"
+        android:background="@drawable/rounded_border_edittext"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editTextREg_2"
+        android:inputType="textPassword">
+    </EditText>
+
+
+
+    <Button
+        android:id="@+id/BTnREg_1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextREg_3"
+        android:layout_marginTop="26dp"
+        android:layout_centerHorizontal="true"
+        android:text="Register"
+        android:background="#F408AD"
+        android:textColor="#FAF5F8"
+        android:textSize="20sp"/>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
